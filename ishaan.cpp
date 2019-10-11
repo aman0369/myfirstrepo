@@ -27,7 +27,7 @@ if(cin.fail())
 cout<<"\n\tYou have entered wrong input"<<"\n";
 }
 }
-for(i=0;i<n;i--)
+for(i=0;i<n;i++)
 {
  if(i%2==1)               //To check if the index is odd
  {
