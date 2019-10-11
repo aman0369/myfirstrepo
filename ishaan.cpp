@@ -5,7 +5,7 @@
 #include<conio.h>
 void main()
 {clrscr();
-int i,n,sum=0,a[200];
+int i,n,sum=0,a[100];
 cout<<"\n\tEnter the number of array elements(max.=99) ";
 cin>>n;
 if(n>0&&n<100)          //To check array size
@@ -27,7 +27,7 @@ if(cin.fail())
 cout<<"\n\tYou have entered wrong input"<<"\n";
 }
 }
-for(i=0;i<n;i--)
+for(i=0;i<n;i++)
 {
  if(i%2==1)               //To check if the index is odd
  {
