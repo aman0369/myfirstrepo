@@ -5,7 +5,7 @@
 #include<conio.h>
 void main()
 {clrscr();
-int i,n,sum=0,a[100];
+int i,n,sum=0,a[200];
 cout<<"\n\tEnter the number of array elements(max.=99) ";
 cin>>n;
 if(n>0&&n<100)          //To check array size
